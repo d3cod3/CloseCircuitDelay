@@ -13,6 +13,7 @@ void ofApp::setup(){
 
     ofSetFrameRate(fps);
     ofSetVerticalSync(true);
+    ofHideCursor();
 
     camWidth    = 1920;
     camHeight   = 1080;
